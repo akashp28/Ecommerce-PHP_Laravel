@@ -41,20 +41,15 @@ This is a single vendor eCommerce website built using [Framework/Library name], 
 ## How to Run
 
 1. **Clone Repository:** Download or clone the repository to your local machine.
-2. **Environment Setup:**
-   - Make sure you have [specific software/dependencies] installed.
-   - Install dependencies by running `[command]`.
-3. **Database Setup:**
-   - Create a database and configure database credentials in `.env` file.
-   - Migrate the database schema by running `php artisan migrate`.
-4. **Seed Database (Optional):**
-   - Optionally, you can seed the database with sample data by running `php artisan db:seed`.
-5. **Environment Configuration:**
-   - Update the `.env` file with any additional configuration settings (e.g., mail, payment gateway).
-6. **Serve Application:**
+2. **Database Setup:**
+   - Create a database named `ecommerce` in SQL Server.
+   - Import the database schema using `ecommerce.sql`.
+3. **Environment Configuration:**
+   - Update the `.env` file with your mail,Pusher and SQL Server configuration details.
+4. **Serve Application:**
    - Open a terminal and navigate to the project directory.
    - Run `php artisan serve`.
-7. **Access Application:**
+5. **Access Application:**
    - Open your web browser and navigate to `http://localhost:8000` to access the application.
 
 ## Dependencies

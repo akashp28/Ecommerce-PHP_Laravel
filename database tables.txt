@@ -1,0 +1,42 @@
+Category-
+id
+Catergory Name (string)
+Category Product Count (int)
+Slug (string)
+
+
+Sub Catergory-
+Id
+Sub Category Name -string
+Category id
+Category Name
+Sub category product count -int
+slug string
+
+
+Products-
+id
+product name
+product short description
+product long description
+product price
+product category name
+product sub category name
+product count
+product img
+product slug
+
+
+
+Orders-
+id
+product name
+product id
+product price
+product quantity
+product total price
+order status
+order submission date
+
+
+
